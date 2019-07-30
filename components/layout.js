@@ -67,15 +67,13 @@ export default class extends React.Component {
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>{this.props.title || "Next.js Starter Project"}</title>
+          <title>{this.props.title || "Filepret"}</title>
           <style dangerouslySetInnerHTML={{ __html: Styles }} />
           <script src="https://cdn.polyfill.io/v2/polyfill.min.js" />
         </Head>
         <Navbar light className="navbar navbar-expand-md pt-3 pb-3">
           <Link prefetch href="/">
-            <NavbarBrand href="/">
-              <span className="icon ion-md-home mr-1" /> {Package.name}
-            </NavbarBrand>
+            <NavbarBrand href="/">Filepret</NavbarBrand>
           </Link>
           <input
             className="nojs-navbar-check"
@@ -143,7 +141,7 @@ export default class extends React.Component {
         <Container fluid={this.props.fluid}>
           <hr className="mt-3" />
           <p className="text-muted small">
-            <Link href="https://github.com/iaincollins/nextjs-starter">
+            <Link href="https://github.com/jamesoshea/filepret-landing">
               <a className="text-muted font-weight-bold">
                 <span className="icon ion-logo-github" /> {Package.name}{" "}
                 {Package.version}

@@ -22,10 +22,6 @@ export default class extends Page {
         >
           <Container className="mt-2 mb-2">
             <h1 className="display-2 mb-3" style={{ fontWeight: 300 }}>
-              {/* <span style={{fontWeight: 600}}>
-                <span className="mr-3">wow</span>
-                <br className="v-block d-sm-none"/>
-              </span> */}
               <br className="v-block d-lg-none" /> Filepret
             </h1>
             <p className="lead mb-5">
@@ -73,11 +69,7 @@ export default class extends Page {
             </Col>
           </Row>
           <h2 className="text-center display-4 mt-2 mb-5">Getting Started</h2>
-          <p>
-            <a href="https://github.com/zeit/next.js">Next.js</a> from{" "}
-            <a href="https://zeit.co">Zeit</a> makes creating websites with
-            React easy.
-          </p>
+          <p>Wow here is some amazing content</p>
         </Container>
       </Layout>
     );
