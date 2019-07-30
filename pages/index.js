@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import HandshakeIcon from "../components/svg/handshake";
 import KeyIcon from "../components/svg/key";
 import DumpsterIcon from "../components/svg/dumpster";
+import HeroImage from "../components/svg/hero";
 
 export default class extends Page {
   render() {
@@ -27,15 +28,20 @@ export default class extends Page {
               </span> */}
               <br className="v-block d-lg-none" /> Filepret
             </h1>
-            <p className="lead mb-5">A self-hostable file formatter and host</p>
-            <p className="text-right">
-              <a
-                href="https://github.com/iaincollins/nextjs-starter"
-                className="btn btn-outline-light btn-lg"
-              >
-                <span className="icon ion-logo-github mr-2" /> Check it out on
-                GitHub
-              </a>
+            <p className="lead mb-5">
+              A self-hostable file formatter and host
+              {/* <p className="text-right" style={{ width: "100%" }}>
+                <a
+                  href="https://github.com/iaincollins/nextjs-starter"
+                  className="btn btn-outline-light btn-lg"
+                >
+                  <span className="icon ion-logo-github mr-2" /> Check it out on
+                  GitHub
+                </a>
+              </p> */}
+            </p>
+            <p className="text-center">
+              <HeroImage color={"#499bea"} height={400} />
             </p>
           </Container>
         </Jumbotron>
