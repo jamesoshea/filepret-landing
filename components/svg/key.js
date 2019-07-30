@@ -8,7 +8,7 @@ export default ({ color, height }) => (
     className="svg-inline--fa fa-key fa-w-16"
     role="img"
     viewBox="0 0 512 512"
-    height={height}
+    style={{ "max-width": "200px" }}
   >
     <path
       fill={color || "#333"}

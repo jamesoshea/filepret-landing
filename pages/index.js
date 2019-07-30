@@ -41,7 +41,7 @@ export default class extends Page {
               </p> */}
             </p>
             <p className="text-center">
-              <HeroImage color={"#499bea"} height={400} />
+              <HeroImage color={"#499bea"} />
             </p>
           </Container>
         </Jumbotron>

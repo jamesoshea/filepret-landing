@@ -3,8 +3,8 @@ export default ({ color, height }) => (
     id="a594ac37-6d44-4297-8862-1cbd9c01c0b7"
     data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
-    height={height}
-    viewBox="0 0 1320 880"
+    viewBox="0 0 1150 880"
+    style={{ display: "block", margin: "auto", "max-width": "600px" }}
   >
     <title>code review</title>
     <path
