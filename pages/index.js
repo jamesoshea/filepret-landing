@@ -68,8 +68,6 @@ export default class extends Page {
               </p>
             </Col>
           </Row>
-          <h2 className="text-center display-4 mt-2 mb-5">Getting Started</h2>
-          <p>Wow here is some amazing content</p>
         </Container>
       </Layout>
     );

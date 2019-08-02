@@ -8,7 +8,7 @@ export default ({ color, height }) => (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 640 512"
-    style={{ "max-width": "200px" }}
+    style={{ maxWidth: "200px" }}
   >
     <path
       fill={color || "#333"}

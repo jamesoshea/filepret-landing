@@ -4,7 +4,7 @@ export default ({ color, height }) => (
     data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1150 880"
-    style={{ display: "block", margin: "auto", "max-width": "600px" }}
+    style={{ display: "block", margin: "auto", maxWidth: "600px" }}
   >
     <title>code review</title>
     <path

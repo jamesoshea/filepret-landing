@@ -89,39 +89,11 @@ export default class extends React.Component {
           <div className="nojs-navbar">
             <Nav navbar>
               <div tabIndex="1" className="dropdown nojs-dropdown">
-                <div className="nav-item">
-                  <span className="dropdown-toggle nav-link">Examples</span>
-                </div>
-                <div className="dropdown-menu">
-                  <Link prefetch href="/examples/authentication">
-                    <a
-                      href="/examples/authentication"
-                      className="dropdown-item"
-                    >
-                      Auth
-                    </a>
-                  </Link>
-                  <Link prefetch href="/examples/async">
-                    <a href="/examples/async" className="dropdown-item">
-                      Async Data
-                    </a>
-                  </Link>
-                  <Link prefetch href="/examples/layout">
-                    <a href="/examples/layout" className="dropdown-item">
-                      Layout
-                    </a>
-                  </Link>
-                  <Link prefetch href="/examples/routing">
-                    <a href="/examples/routing" className="dropdown-item">
-                      Routing
-                    </a>
-                  </Link>
-                  <Link prefetch href="/examples/styling">
-                    <a href="/examples/styling" className="dropdown-item">
-                      Styling
-                    </a>
-                  </Link>
-                </div>
+                <Link href="/about">
+                  <div className="nav-item">
+                    <span className="nav-link">About</span>
+                  </div>
+                </Link>
               </div>
             </Nav>
             <UserMenu
@@ -331,7 +303,7 @@ export class UserMenu extends React.Component {
               className="btn btn-outline-primary"
               onClick={this.props.toggleModal}
             >
-              <span className="icon ion-md-log-in mr-1" /> Sign up / Sign in
+              Get Started
             </a>
           </NavItem>
         </Nav>
