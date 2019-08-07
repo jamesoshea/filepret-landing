@@ -293,17 +293,12 @@ export class UserMenu extends React.Component {
       return (
         <Nav className="ml-auto" navbar>
           <NavItem>
-            {/**
-             * @TODO Add support for passing current URL path as redirect URL
-             * so that users without JavaScript are also redirected to the page
-             * they were on before they signed in.
-             **/}
             <a
               href="/auth?redirect=/"
               className="btn btn-outline-primary"
               onClick={this.props.toggleModal}
             >
-              Get Started
+              <span className="icon ion-md-log-in mr-1" /> Sign up / Sign in
             </a>
           </NavItem>
         </Nav>
