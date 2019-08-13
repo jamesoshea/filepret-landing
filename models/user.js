@@ -14,13 +14,9 @@ export default class {
           credentials: 'same-origin',
         },
       })
-      .then((response) => {
-        if (response.ok) {
-          return Promise.resolve(response.json());
-        }
-        return Promise.reject(Error('HTTP error when trying to list users'));
-      })
-      .then((data) => data)
-      .catch(() => Promise.reject(Error('Error trying to list users')));
+      .then(({ data }) => data)
+      .catch((error) => {
+        console.log(error);
+      });
   }
 }
