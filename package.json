@@ -7,6 +7,7 @@
   "repository": "https://github.com/jamesoshea/filepret-landing.git",
   "main": "index.js",
   "dependencies": {
+    "aws-sdk": "^2.508.0",
     "babel-core": "^6.26.3",
     "babel-plugin-wrap-in-js": "^1.1.1",
     "bootstrap": "^4.3.1",
@@ -18,7 +19,7 @@
     "jquery": "^3.4.1",
     "mongodb": "^3.1.10",
     "nedb": "^1.8.0",
-    "next": "^7.0.2",
+    "next": "^9.0.3",
     "next-auth": "^1.12.1",
     "node-sass": "^4.11.0",
     "nodemailer": "^4.7.0",
@@ -28,6 +29,7 @@
     "passport-google-oauth": "^1.0.0",
     "passport-twitter": "^1.0.4",
     "popper.js": "^1.14.6",
+    "prettier": "^1.18.2",
     "raw-loader": "^0.5.1",
     "react": "^16.7.0",
     "react-bootstrap-table": "^4.3.1",
@@ -39,7 +41,16 @@
     "universal-cookie": "^3.0.7"
   },
   "devDependencies": {
-    "cross-env": "^5.1.6"
+    "babel-eslint": "^10.0.2",
+    "cross-env": "^5.1.6",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
   },
   "optionalDependencies": {
     "fsevents": "*"
@@ -50,8 +61,5 @@
     "export": "next export",
     "start": "node index.js",
     "postinstall": "next build"
-  },
-  "engines": {
-    "node": "8.11.x"
   }
 }
