@@ -21,7 +21,7 @@
     "mongodb": "^3.1.10",
     "nedb": "^1.8.0",
     "next": "^9.0.3",
-    "next-auth": "^1.12.1",
+    "next-auth": "git://github.com/jamesoshea/next-auth.git#2acff4d85f0ae5339c54c1f0883e48fc14758029",
     "node-sass": "^4.11.0",
     "nodemailer": "^4.7.0",
     "nodemailer-direct-transport": "^3.3.2",
@@ -43,7 +43,6 @@
     "universal-cookie": "^3.0.7"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
     "cross-env": "^5.1.6",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.0",
