@@ -22,7 +22,7 @@
     "nedb": "^1.8.0",
     "next": "^9.0.3",
     "next-auth": "git://github.com/jamesoshea/next-auth.git#2acff4d85f0ae5339c54c1f0883e48fc14758029",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "nodemailer": "^4.7.0",
     "nodemailer-direct-transport": "^3.3.2",
     "nodemailer-smtp-transport": "^2.7.4",
